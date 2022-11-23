@@ -1,5 +1,5 @@
 <template>
-  <h1>Home</h1>
+  <h1 class="text-red-600">Home</h1>
 </template>
 
 <script setup>
@@ -9,5 +9,3 @@ function load(file) {
   return defineAsyncComponent(() => import(`../components/${file}.vue`));
 }
 </script>
-
- 
