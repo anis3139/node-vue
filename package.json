@@ -1,7 +1,7 @@
 {
   "name": "test-ssr-vue",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "node server",
@@ -15,7 +15,6 @@
     "debug": "node --inspect-brk server"
   },
   "dependencies": {
-    "example-external-component": "file:example-external-component",
     "pinia": "^2.0.24",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"

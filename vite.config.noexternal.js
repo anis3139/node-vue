@@ -19,7 +19,6 @@ export default Object.assign(config, {
       }
     ]
   },
-  optimizeDeps: {
-    exclude: ['example-external-component']
+  optimizeDeps: { 
   }
 })
